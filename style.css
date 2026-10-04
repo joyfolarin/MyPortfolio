@@ -1301,7 +1301,104 @@ button {
     .skill-card {
         min-height: 155px;
 
-     
+     padding: 18px;
+    }
+
+    .skill-card h3 {
+        margin-top: 22px;
+
+        font-size: 0.9rem;
+    }
+
+  .skill-card p {
+        font-size: 0.68rem;
+    }
+
+
+    /* SERVICES */
+
+    .service-item {
+        grid-template-columns: 42px 1fr;
+
+        gap: 15px;
+
+        padding: 24px 0;
+    }
+
+    .service-item h3 {
+        font-size: 1rem;
+    }
+
+    .service-item p {
+        font-size: 0.72rem;
+    }
+
+
+    /* PROJECTS */
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+
+        gap: 20px;
+    }
+
+    .project-content {
+        padding: 22px;
+    }
+
+    .project-content h3 {
+        font-size: 1.5rem;
+    }
+
+
+    /* CTA */
+
+    .cta {
+        padding: 90px 0;
+    }
+
+
+    /* CONTACT */
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+
+        gap: 50px;
+    }
+
+
+    /* FOOTER */
+
+    .footer-content {
+        flex-direction: column;
+
+        text-align: center;
+
+        gap: 12px;
+    }
+}
+
+@media (max-width: 760px) {
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+
+    .project-info {
+        width: 100%;
+    }
+}
+
+
 /* =========================================================
    SMALL PHONES
    ========================================================= */
